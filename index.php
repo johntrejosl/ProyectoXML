@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+ <link rel="stylesheet" href="estilos.css">
+
+    <title>Estudiantes</title>
+  </head>
+  <body> 
+<header id="main-header">
+    
+    <a id="logo-header" href="#">
+      <span class="site-name">Base de estudiantes</span>
+      <span class="site-desc">Registro / Actualizacion / </span>
+    </a> <!-- / #logo-header -->
+ 
+    <nav>
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Acerca de</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+    </nav><!-- / nav -->
+ 
+  </header><!-- / #main-header -->
+ 
+    <h1 style="text-align: center;"> Bienvenido, Seleccione una opcion </h1> 
+   <div >
+ 
+ <p>
+  <a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Registrar estudiante</a>
+  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">ver estudiantes</button>
+  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Actualizar</button>
+</p>
+<div class="row">
+  <div class="col">
+    <div class="collapse multi-collapse" id="multiCollapseExample1">
+      <div class="card card-body">
+       <form method="post" action="ingresar.php">
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Nombre</label>
+    <input name="nombre" type="text" class="form-control" id="exampleFormControlInput1" placeholder="ponga su nombre aqui">
+  </div>
+
+<div class="form-group">
+    <label for="exampleFormControlInput1">edad</label>
+    <input name="edad" type="text" class="form-control" id="exampleFormControlInput1" placeholder="13">
+  </div>
+
+  <div class="form-group">
+    <label for="exampleFormControlSelect1">sexo</label>
+    <select name="sexo" class="form-control" id="exampleFormControlSelect1">
+      <option>Masculino</option>
+      <option>Femenino</option>
+     
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlSelect2">Example multiple select</label>
+    <select name="select" multiple class="form-control" id="exampleFormControlSelect2">
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+    </select>
+
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">comentarios</label>
+    <input type="text" name="comentarios" class="form-control" id="exampleFormControlTextarea1" rows="3"></input>
+  </div>
+  <p><input type="submit" /></p>
+</form>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="collapse multi-collapse" id="multiCollapseExample2">
+      <div class="card card-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+
+
+     </div>
+
+
+
+
+
+
+
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <footer id="main-footer">
+    <p>&copy; 2019 <a href="http://johntrejosdesigns.000webhostapp.com">Proyecto xml</a></p>
+  </footer> <!-- / #main-footer -->
+ 
+  </body>
+</html>
