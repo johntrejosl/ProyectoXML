@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE estudiantes_Materias[ 
+<!ELEMENT estudiantes_Materias (tabla*)>
+<!ELEMENT tabla (#PCDATA)>]>
+<estudiantes_Materias><tabla>id_estudiantes</tabla><tabla>id_Materias</tabla></estudiantes_Materias>

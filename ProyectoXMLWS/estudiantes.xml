@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+	<!DOCTYPE estudiantes[ <!ELEMENT estudiantes ANY>
+
+    <!ELEMENT estudiantes (id_estudiantes,estudiante*)>
+     
+<!ELEMENT id_estudiantes (#PCDATA)>
+<!ELEMENT estudiante ANY>
+<!ELEMENT estudiante (nombre,carrera)*> <!ELEMENT nombre (#PCDATA) ><!ELEMENT carrera (#PCDATA) >]>
+<estudiantes>
+<llave>id_estudiantes</llave>
+<estudiante>
+<nombre>John </nombre><carrera>diseño </carrera>
+</estudiante>
+</estudiantes>

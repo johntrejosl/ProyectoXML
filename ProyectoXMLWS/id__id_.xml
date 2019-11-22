@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE id__id_[ 
+<!ELEMENT id__id_ (tabla*)>
+<!ELEMENT tabla (#PCDATA)>]>
+<id__id_><tabla>id_</tabla><tabla>id_</tabla></id__id_>
